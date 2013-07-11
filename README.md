@@ -13,3 +13,36 @@ It is simple, you need the BankHelper.dll (download the solution and compile or 
 Web.config File Example
 =======================
 
+```
+<!-- 
+  Example of configuration to put into main configuration file.
+  Look at Web.config file in BoletoWebAppDemo project.
+-->
+<configuration>
+  <configSections>
+    <section name="BankConfiguration" type="BankHelper.Configuration.BankConfigurationHandler, BankHelper" />
+  </configSections>
+
+  <!-- That is the handler to generate barcode. -->
+  <system.webServer>
+    <handlers>
+      <add name="ImagemCodigoBarra" verb="*" path="ImagemCodigoBarra.ashx" type="BoletoNet.ImagemCodigoBarraHandler" />
+    </handlers>
+  </system.webServer>
+  
+  <!-- That is the configuration to generate receipt to Santander. -->
+  <BankConfiguration>
+    <!-- That should be the same tag to get a factory instance -->
+    <Santader>
+      <add interface="BoletoNet.IInstrucao" class="BoletoNet.Instrucao_Santander, Boleto.Net" value="Não Receber após o vencimento" />
+      <add interface="BoletoNet.IEspecieDocumento" class="BoletoNet.EspecieDocumento_Santander, Boleto.Net" value="17" />
+    </Santader>
+    <!-- That should be the same tag to get a factory instance -->
+    <Itau>
+      ...
+    </Itau>
+  </BankConfiguration>
+</configuration>
+```
+
+Enjoy yourself!
