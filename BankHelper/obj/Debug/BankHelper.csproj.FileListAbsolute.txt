@@ -1,0 +1,6 @@
+Z:\Documentos\Projects\Csharp\BoletoWebAppDemo\BankHelper\bin\Debug\BankHelper.dll
+Z:\Documentos\Projects\Csharp\BoletoWebAppDemo\BankHelper\bin\Debug\BankHelper.pdb
+Z:\Documentos\Projects\Csharp\BoletoWebAppDemo\BankHelper\bin\Debug\Boleto.Net.dll
+Z:\Documentos\Projects\Csharp\BoletoWebAppDemo\BankHelper\obj\Debug\BankHelper.dll
+Z:\Documentos\Projects\Csharp\BoletoWebAppDemo\BankHelper\obj\Debug\BankHelper.pdb
+Z:\Documentos\Projects\Csharp\BoletoWebAppDemo\BankHelper\bin\Debug\BankHelper.dll.config

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoletoWebAppDemo", "BoletoWebAppDemo\BoletoWebAppDemo.csproj", "{94659E39-4529-4EF8-8F1E-5BB632524C63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankHelper", "BankHelper\BankHelper.csproj", "{6297CB9B-74C3-4208-A3DE-878EC9AA4EEA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{EFD0B31C-2C68-4871-81E7-A12171FDD6EA}"
+	ProjectSection(SolutionItems) = preProject
+		Resources\Boleto.Net.dll = Resources\Boleto.Net.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94659E39-4529-4EF8-8F1E-5BB632524C63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94659E39-4529-4EF8-8F1E-5BB632524C63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94659E39-4529-4EF8-8F1E-5BB632524C63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94659E39-4529-4EF8-8F1E-5BB632524C63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6297CB9B-74C3-4208-A3DE-878EC9AA4EEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6297CB9B-74C3-4208-A3DE-878EC9AA4EEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6297CB9B-74C3-4208-A3DE-878EC9AA4EEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6297CB9B-74C3-4208-A3DE-878EC9AA4EEA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
