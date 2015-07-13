@@ -9,6 +9,12 @@ How to use
 
 It is simple, you need the BankHelper.dll (download the solution and compile or download the dll inside debug folder of the project BankHelper) and Boleto.Net.dll (which may be found at http://boletonet.codeplex.com/). After that, you'll need make some changes in your Web.config file.
 
+Requirements
+============
+
+* BoletoNet
+Documentation about value and references may be found at: http://boletonet.codeplex.com/
+
 
 Web.config File Example
 =======================
