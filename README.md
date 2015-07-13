@@ -14,9 +14,9 @@ Requirements
 
 * BoletoNet
 * Documentation about value and references may be found at: 
-** https://github.com/BoletoNet/boletonet/wiki 
-** http://boletonet.codeplex.com/
-** http://boletonet.codeplex.com/wikipage?title=Documenta%C3%A7%C3%A3o&referringTitle=Home
+  * https://github.com/BoletoNet/boletonet/wiki 
+  * http://boletonet.codeplex.com/
+  * http://boletonet.codeplex.com/wikipage?title=Documenta%C3%A7%C3%A3o&referringTitle=Home
 
 
 Web.config File Example
